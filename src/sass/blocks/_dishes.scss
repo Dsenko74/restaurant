@@ -1,0 +1,138 @@
+.dishes {
+    position: relative;
+    &__title {
+        margin-top: 120px;
+        text-align: center;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 60px;
+        color: #2B2B2B;
+    }
+    &__redline {
+        position: absolute;
+        top: 69px;
+        left: 482px;
+    }
+    &__wrapper {
+        margin-top: 60px;
+        width: 1200px;
+        height: 431px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+/*         background-color: #ff5; */
+    }
+    &__item {
+        position: relative;
+        margin-top: 20px;
+        width: 368px;
+        height: 411px;
+        background: url('../../icons/dishes/Subtract_bg.png') center (center / cover) no-repeat;
+        &-img {
+            position: absolute;
+            border-radius: 100%;
+            top: -20px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        &-stars {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            position: absolute;
+            width: 29px;
+            height: 53px;
+            top: 127px;
+            left: 30px;
+        }
+        &-rating {
+            margin-top: 4px;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 25px;
+            color: #2B2B2B;
+        }
+        &-hearts {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            position: absolute;
+            width: 29px;
+            height: 53px;
+            top: 127px;
+            right: 30px;
+        }
+        &-likes {
+            margin-top: 4px;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 25px;
+            color: #2B2B2B;
+        }
+        &-subtitle {
+            margin-top: 220px;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 32px;
+            text-align: center;
+            color: #2B2B2B;
+        }
+        &-text {
+            margin-top: 12px;
+            margin: 0 auto;
+            width: 308px;
+            height: 50px;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 25px;
+            text-align: center;
+            color: #686868;
+        }
+        &-prices {
+            margin: 0 auto;
+            margin-top: 30px;
+            width: 308px;
+            height: 56px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &-price {
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 32px;
+            text-align: center;
+            color: #2B2B2B;
+        }
+        &-btn {
+            width: 165px;
+            height: 56px;
+            border: 1px solid #F4F4F4;
+            border-radius: 4px 20px;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 32px;
+            color: #2B2B2B;
+            background-color: #fff;
+        }
+    }
+    &__btn {
+        display: block;
+        margin: 0 auto;
+        margin-top: 72px;
+        padding: 12px 30px;
+        width: 239px;
+        height: 56px;
+        background: #F95555;
+        box-shadow: 0px 10px 30px rgba(249, 85, 85, 0.2);
+        border-radius: 4px 20px;
+        border: none;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 32px;
+        color: #FFFFFF;
+
+    }
+}

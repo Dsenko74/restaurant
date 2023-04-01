@@ -1,0 +1,97 @@
+.header {
+    max-width: 1440px;
+    height: 114px;
+    background-color: #fff;
+
+    &__wrapper {
+        width: 1200px;
+        padding: 34px 0 24px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__logo {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        margin: 3px 0 3px 0;
+        border-radius: 100%;
+        background: #F95555;
+        img {
+            position: absolute;
+        }
+
+    }
+    &__menu {
+        margin: 15px 300px;
+        width: 419px;
+        height: 25px;
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        &-item {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 140%;
+            text-transform: capitalize;
+          /*   color: #2B2B2B; */
+        }
+        &-link {
+            text-decoration: none;
+            color: #2B2B2B;
+        }
+
+
+    }
+    &__wrapp {
+        display: flex;
+        justify-content: space-between;
+        width: 132px;
+        height: 56px;
+        &-search {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 56px;
+            height: 56px;
+            img {
+                width: 24px;
+                height: 24px;
+            }
+        }
+        &-bascet {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 56px;
+            height: 56px;
+            border-radius: 100%;
+            box-shadow: 0px 2px 30px rgba(249, 85, 85, 0.3);
+            img {
+                width: 24px;
+                height: 24px;
+            }
+            &-item {
+                position: absolute;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 100%;
+                width: 20px;
+                height: 20px;
+                right: 0px;
+                top: -4px;
+                color: #fff;
+                background: #F95555;
+                font-family: 'Poppins';
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 100%;
+                text-transform: capitalize;
+            }
+        }
+    }
+}
