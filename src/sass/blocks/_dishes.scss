@@ -1,5 +1,6 @@
 .dishes {
     position: relative;
+    padding-bottom: 120px;
     &__title {
         margin-top: 120px;
         text-align: center;
@@ -10,8 +11,8 @@
     }
     &__redline {
         position: absolute;
-        top: 69px;
-        left: 482px;
+        top: 39px;
+        left: 795px;
     }
     &__wrapper {
         margin-top: 60px;
