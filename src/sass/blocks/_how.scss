@@ -3,7 +3,7 @@
     padding-top: 120px;
     width: 1440px;
     min-height: 1505px;
-    background: url('../../icons/how/bg.png') center (center / cover) no-repeat;
+    background: url('../icons/how/bg.png') center (center / cover) no-repeat;
     &__title {
         text-align: center;
         font-weight: 700;
@@ -24,7 +24,7 @@
         flex-wrap: wrap;
         justify-content: space-between;
     }
-
+// in item треба зробити при наведенні тінь, як на img, перепитати
     &__item {
         position: relative;
         margin-top: 20px;
@@ -94,5 +94,173 @@
                 background: url('../../icons/how/arrow_right.png') center (center / cover) no-repeat;
             }
         }
+    }
+    &__wrapp {
+        margin-top: 120px;
+        display: grid;
+        grid-template-columns: 837px 303px;
+        grid-template-rows: 510px;
+        grid-auto-rows: 510px;  
+        column-gap: 60px;
+    }
+    &__eat {
+        width: 837px;
+        position: relative;
+        &-title {
+            margin-left: 279px;
+            width: 471px;
+            height: 120px;
+            font-weight: 700;
+            font-size: 50px;
+            line-height: 60px;
+            text-transform: capitalize;
+            color: #2B2B2B;
+        }
+        &-item {
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin-top: 13px;
+            width: 182px;
+            height: 140px;
+            background: url('../../icons/promo/rectangle.png') center (center / cover) no-repeat;
+            &-img {
+                position: absolute;
+                display: block;
+                top: -34px;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+            &-name {
+                padding-top: 88px;
+                text-align: center;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 32px;
+                color: #F95555;
+            }
+        }
+        &-girl {
+            position: absolute;
+            width: 380px;
+            height: 430px;
+            top: 74px;
+            right: 0;
+            img {
+                padding-left: 0;
+                width: 100%;
+                height: 100%;
+            }
+        }
+        &-descr {
+            margin-top: 72px;
+            width: 390px;
+            height: 93px;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 31px;
+            text-transform: capitalize;
+            color: #4A4A4A;
+        }
+        &-btn {
+            position: relative;
+            margin-top: 40px;
+            padding: 12px 30px;
+            width: 206px;
+            height: 56px;
+            background: #F95555;
+            box-shadow: 0px 10px 30px rgba(249, 85, 85, 0.2);
+            border-radius: 4px 20px;
+            border: none;
+            color: #FFFFFF;
+            &:after {
+                content: '';
+                display: block;
+                position: absolute;
+                right: 26px;
+                top: 50%;
+                transform: translateY(-50%);
+                width: 24px;
+                height: 8px;
+                background: url('../../icons/promo/arrows.png') center (center / cover) no-repeat;
+            }
+        }
+        &-arrow {
+            position: absolute;
+            top: 380px;
+            left: 255px;
+            width: 194px;
+            height: 82px;
+            background: url('../../icons/how/arrow_red.png') center (center / cover) no-repeat; 
+        } 
+    }
+    &__author {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 30px;
+        width: 303px;
+        height: 450px;
+        &-item {
+            width: 303px;
+            height: 185px;
+
+            &-days {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+                color: #878787;
+            }
+            &-descr {
+                margin-top: 8px;
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 34px;
+                color: #000000;
+            }
+        }
+        &-wrapp {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            width: 303px;
+            height: 70px;
+            &-photo {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 70px;
+                height: 70px;
+                background-color: #fff;
+                box-shadow: 0px 10px 30px rgba(43, 43, 43, 0.2);
+                border-radius: 100%;
+                img {
+                    width: 75%;
+                    height: 75%;
+                }
+            }
+            &-text {
+                width: 213px;
+                height: 48px;
+                margin: 11px 0;
+                &-position {
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 24px;
+                    color: #4A4A4A;
+                }
+                &-design {
+                    margin-top: 5px;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #878787;
+                }
+
+            }
+        }
+
+
     }
 }
