@@ -1,0 +1,181 @@
+.reaction {
+    &__wrapper {
+        margin-top: 120px;
+        display: grid;
+        grid-template-columns: 580px 560px;
+        grid-template-rows: 566px;
+        grid-auto-rows: 566px;
+        column-gap: 60px;
+    }
+    &__man {
+        position: relative;
+        margin-top: 8px;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+        &-bg {
+            position: absolute;
+            top: 97px;
+            left: -30px;
+            width: 426px;
+            height: 505px;
+            z-index: -1;
+        }
+    }
+    &__redcircle {
+        position: absolute;
+        width: 180px;
+        height: 180px;
+        left: 92px;
+        top: 100px;
+        border-radius: 100%;
+        background: #F95555;
+        box-shadow: 0px 10px 30px rgba(43, 43, 43, 0.2);
+        z-index: -1;
+    }
+    &__customer {
+        position: relative;
+        &-wrapp {
+            margin: 0 40px 40px 40px;
+            display: flex;
+            justify-content: start;
+            width: 480px;
+            height: 70px;
+            &-photo {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 70px;
+                height: 70px;
+                background-color: #fff;
+                box-shadow: 0px 10px 30px rgba(43, 43, 43, 0.2);
+                border-radius: 100%;
+                img {
+                    width: 75%;
+                    height: 75%;
+                }
+            }
+            &-text {
+                margin-left: 36px;
+                width: 213px;
+                height: 72px;
+                &-position {
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 24px;
+                    color: #4A4A4A;
+                }
+                &-design {
+                    margin-top: 5px;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #878787;
+                }
+                &-stars{
+                    margin-top: 3px;
+                    display: flex;
+                    justify-content: start;
+                    width: 124px;
+                    height: 16px;
+                }
+                &-star {
+                    margin-right: 5px;
+                    width: 124px;
+                    height: 16px;
+                }
+            }
+        }
+
+
+
+
+    }
+    &__title {
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 120%;
+        color: #2B2B2B;
+    }
+    &__redline {
+        width: 225px;
+        height: 22px;
+        position: absolute;
+        top: 41px;
+        left: 298px;
+        transform: rotate(1deg);
+        img {
+            width: 100%;
+        }
+    }
+    &__wrapp {
+        margin: 100px 40px 20px 40px;
+        display:flex;
+        justify-content: space-between;
+        width: 480px;
+        height: 26px;
+        &-purchase {
+            position: relative;
+            padding: 4px 10px 4px 34px;
+            width: 152px;
+            height: 26px;
+            background: #ECFDF5;
+            border-radius: 4px;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 18px;
+            color: #064E3B;
+            &::before {
+                content: '';
+                position: absolute;
+                width: 16px;
+                height: 16px;
+                top: 50%;
+                left: 10px;
+                transform: translateY(-50%);
+                background: url('../../icons/reaction/check_mark.png') center (center / cover) no-repeat;
+            }
+        }
+        &-date {
+            margin: 4px 0;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 18px;
+            text-align: right;
+            color: #64748B;
+        }
+    }    
+    &__descr {
+        margin: 20px 40px 40px 40px;
+        font-style: italic;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        color: #2B2B2B;
+    }
+    &__btns {
+        margin-top: 110px;
+        display: flex;
+        justify-content: space-between;
+        width: 560px;
+        height: 48px;
+        &-btn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100px;
+            height: 48px;
+            background: #FFFFFF;
+            border-radius: 4px 20px;
+            border: 1px solid #F4F4F4;
+            &-red {
+                width: 100px;
+                height: 48px;
+                background: #F95555;
+                border-radius: 4px 20px;
+                border: none;
+            }
+        }
+    }
+}
