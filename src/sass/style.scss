@@ -1,5 +1,6 @@
 @import 'libs/bootstrap-reboot.min';
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
 
 * {
     font-family: 'Poppins', sans-serif;
@@ -25,3 +26,4 @@
 @import 'blocks/dishes';
 @import 'blocks/how';
 @import 'blocks/reaction';
+@import 'blocks/footer';

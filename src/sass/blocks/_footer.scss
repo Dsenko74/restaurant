@@ -1,0 +1,114 @@
+.footer {
+    height: 520px;
+    border-top: 1px solid #FDD5D5;
+    border-bottom: 1px solid #FDD5D5;
+    &__wrapper {
+        margin: 60px 0 48px 0;
+        display: grid;
+        grid-template-columns: 166px 896px;
+        grid-template-rows: 292px;
+        grid-auto-rows: 292px;
+        column-gap: 224px;
+    }
+    &__logo {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        margin: 3px 0 3px 0;
+        border-radius: 100%;
+        background: #F95555;
+        img {
+            position: absolute;
+        }
+    }
+    &__text {
+        margin-top: 32px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 30px;
+        color: #2B2B2B;
+    }
+    &__wrapp {
+        display:grid;
+        grid-template-columns: 128px 85px 77px;
+        grid-template-rows: 240px;
+        grid-auto-rows: 240px;
+        column-gap: 260px;
+    }
+    &__item {
+        position: relative;
+        &-descr {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 20px;
+            color: #878787;
+        }
+        &-btn {
+            position: absolute;
+            top: 37px;
+            right: 0;
+            width: 42px;
+            height: 22px;
+            padding: 3px 8px;
+            border-radius: 16px;
+            background-color: #F95555;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 18px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+    }
+    &__menu {
+        margin-top: 16px;
+        list-style-type: none;
+    }
+    &__link {
+        margin-top: 12px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        a {
+            color: #2B2B2B;
+            text-decoration: none;
+            &:hover {
+                color: #F95555;
+            }
+        }
+    }
+    &__final {
+        height: 120px;
+        &-wrapper {
+            padding: 48px 0;
+            display: flex;
+            justify-content: space-between;
+        }  
+        &-text {
+            width: 373px;
+            height: 24px;
+            font-family: 'Inter';
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 24px;
+            color: #121212;
+            span {
+                color: #F95555;
+            }
+        }
+        &-menu {
+            display: flex;
+            list-style-type: none;
+            margin-bottom: 0;
+        }
+        &-link {
+            margin-left: 24px;
+        }
+    }
+}
