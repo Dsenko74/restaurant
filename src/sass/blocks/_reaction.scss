@@ -58,9 +58,19 @@
                 }
             }
             &-text {
+                position: relative;
                 margin-left: 36px;
-                width: 213px;
+                width: 197px;
                 height: 72px;
+                &::before {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: -16px;
+                    width: 0;
+                    height: 72px;
+                    border: 2px solid #F95555;
+                }
                 &-position {
                     font-weight: 600;
                     font-size: 20px;

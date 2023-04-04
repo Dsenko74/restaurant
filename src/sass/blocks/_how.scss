@@ -241,9 +241,19 @@
                 }
             }
             &-text {
-                width: 213px;
+                position: relative;
+                width: 197px;
                 height: 48px;
                 margin: 11px 0;
+                &::before {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: -16px;
+                    width: 0;
+                    height: 48px;
+                    border: 2px solid #F95555;
+                }
                 &-position {
                     font-weight: 600;
                     font-size: 20px;
