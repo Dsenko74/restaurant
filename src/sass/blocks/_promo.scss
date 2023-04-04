@@ -79,7 +79,7 @@
                 transform: translateY(-50%);
                 width: 24px;
                 height: 8px;
-                background: url('../../icons/promo/arrows.png') center (center / cover) no-repeat;
+                background: url('../icons/promo/arrows.png') center (center / cover) no-repeat;
             }
         }
         &-white {
@@ -110,12 +110,12 @@
             margin-top: 13px;
             width: 182px;
             height: 140px;
-            background: url('../../icons/promo/rectangle.png') center (center / cover) no-repeat;
+            background: url('../icons/promo/rectangle.png') center (center / cover) no-repeat;
 /*             border: 1px solid rgba(43, 43, 43, 0.05);
             border-radius: 10px; */
             &-red {
                 position: relative;
-                background: url('../../icons/promo/Rectangle_red.png') center (center / cover) no-repeat;
+                background: url('../icons/promo/Rectangle_red.png') center (center / cover) no-repeat;
             }
         }
         &-img {
@@ -141,7 +141,7 @@
         height: 99px;
         left: 505px;
         top: 420px;
-        background: url('../../icons/promo/arrow_red.png') center (center / cover) no-repeat;
+        background: url('../icons/promo/arrow_red.png') center (center / cover) no-repeat;
     }
     &__humburger {
         position: relative;

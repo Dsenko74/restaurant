@@ -30,7 +30,7 @@
         margin-top: 20px;
         width: 368px;
         height: 375px;
-        background: url('../../icons/how/Subtract.png') center (center / cover) no-repeat;
+        background: url('../icons/how/Subtract.png') center (center / cover) no-repeat;
         &-img {
             display: flex;
             justify-content: center;
@@ -91,7 +91,7 @@
                 width: 40px;
                 height: 12px;
                 right: 28px;
-                background: url('../../icons/how/arrow_right.png') center (center / cover) no-repeat;
+                background: url('../icons/how/arrow_right.png') center (center / cover) no-repeat;
             }
         }
     }
@@ -123,7 +123,7 @@
             margin-top: 13px;
             width: 182px;
             height: 140px;
-            background: url('../../icons/promo/rectangle.png') center (center / cover) no-repeat;
+            background: url('../icons/promo/rectangle.png') center (center / cover) no-repeat;
             &-img {
                 position: absolute;
                 display: block;
@@ -182,7 +182,7 @@
                 transform: translateY(-50%);
                 width: 24px;
                 height: 8px;
-                background: url('../../icons/promo/arrows.png') center (center / cover) no-repeat;
+                background: url('../icons/promo/arrows.png') center (center / cover) no-repeat;
             }
         }
         &-arrow {
@@ -191,7 +191,7 @@
             left: 255px;
             width: 194px;
             height: 82px;
-            background: url('../../icons/how/arrow_red.png') center (center / cover) no-repeat; 
+            background: url('../icons/how/arrow_red.png') center (center / cover) no-repeat; 
         } 
     }
     &__author {
