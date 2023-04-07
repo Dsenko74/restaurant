@@ -4,10 +4,13 @@
     background-color: #fff;
 
     &__wrapper {
-        width: 1200px;
+        position: relative;
         padding: 34px 0 24px 0;
         display: flex;
         justify-content: space-between;
+        nav {
+            width: 419px;
+        }
     }
     &__logo {
         position: relative;
@@ -25,8 +28,7 @@
 
     }
     &__menu {
-        margin: 15px 300px;
-        width: 419px;
+        margin: 15px 0;
         height: 25px;
         display: flex;
         justify-content: space-between;
@@ -94,4 +96,7 @@
             }
         }
     }
+}
+.hamburger {
+    display: none;
 }
