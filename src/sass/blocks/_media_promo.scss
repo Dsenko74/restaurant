@@ -1,0 +1,344 @@
+@media (max-width: 1400px) {
+    .container {
+        max-width: 1140px;
+        padding: 0 30px;
+    }
+    .promo {
+        &__wrapper {
+            column-gap: 98px;
+        }
+        &__arrow {
+            left: 446px;
+        }
+    }
+    
+}
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+        padding: 0 30px;
+    }
+    .promo {
+        &__wrapper {
+            grid-template-columns: 534px 356px;
+            column-gap: 10px;
+        }
+        &__menu {
+            margin-top: 39px;
+            &-item {
+                width: 162px;
+            }
+        }
+        &__arrow {
+            width: 200px;
+            height: 80px;
+            left: 396px;
+        }
+        &__humburger {
+            width: 356px;
+            &-img {
+                top: 24px;
+                left: 0;
+                width: 100%;
+                height: 94%;
+            }
+            &-discount {
+                top: 142px;
+            }
+            &-btns {
+                margin: -70px auto;
+            }
+            &-deliver {
+                margin-top: 154px;
+                width: 356px;
+                &-text {
+                    width: 256px;
+                    margin: 6px 0;
+                    font-size: 15px;
+                    line-height: 26px;
+                    &::before {
+                        top: 6px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+        padding: 0 20px;
+    }
+    .promo {
+        margin-top: 15px;
+        &__wrapper {
+            grid-template-columns: 409px 281px;
+            grid-template-rows: 610px;
+            grid-auto-rows: 610px;
+        }
+        &__title {
+            font-size: 60px;
+            line-height: 75px;
+        }
+        &__subtitle {
+            font-size: 14px;
+            line-height: 26px;
+        }
+        &__btns {
+            width: 403px;
+        }
+        &__btn {    
+            &-red {
+                padding: 12px 30px;
+                width: 185px;
+                height: 45px;   
+                border-radius: 3px 15px;
+                &::after {
+                    right: 20px;
+                }
+            }
+            &-white {
+                padding: 7px 30px;
+                width: 182px;   
+                height: 45px;
+                font-size: 16px;
+                border-radius: 3px 15px;
+            }            
+        }
+        &__menu {
+            margin-top: 39px;
+            &-item {
+                width: 120px;
+            }
+        }
+        &__arrow {
+            left: 235px;
+            top: 320px;
+            z-index: 6;
+        }
+        &__humburger {
+            width: 280px;
+            &-img {
+                top: 40px;
+                width: 101%;
+                height: 75%;
+            }
+            &-discount {
+                top: 110px;
+                width: 140px;
+                height: 133px;
+                left: -67px;
+                padding: 14px;
+                &-img {
+                    width: 46px;
+                    height: 46px;
+                    left: 110px;
+                    top: -25px;
+                }
+                &-persent {
+                    font-size: 26px;
+                    line-height: 30px;
+                }
+                &-text {
+                    font-size: 19px;
+                    line-height: 30px;
+                }
+            }
+            &-btns {
+                margin: -156px auto;
+            }
+            &-btn {
+                height: 45px;
+                &-red {
+                    height: 45px;
+                }
+            }
+            &-deliver {
+                margin-top: 200px;
+                width: 281px;
+                &-text {
+                    width: 188px;
+                    margin: 9px 0;
+                    font-size: 12px;
+                    line-height: 23px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+        padding: 0 10px;
+    }
+    .header {
+        nav {
+            width: 320px;
+        }
+        &__logo {
+            width: 40px;
+            height: 40px;
+        }
+        &__menu {
+            margin: 12px 0;
+            &-item {
+                font-size: 15px;
+                line-height: 130%;
+            }
+        }
+        &__wrapp {
+            width: 100px;
+            height: 44px; 
+            &-search {
+                width: 44px;
+                height: 44px;
+            }
+            &-bascet {
+                width: 44px;
+                height: 44px;
+            }
+        }
+    }
+    .promo {
+        &__wrapper {
+            grid-template-columns: 409px;
+            grid-template-rows: 610px;
+            grid-auto-rows: 610px;
+            justify-content: center;
+        }
+        &__arrow {
+            display: none;
+        }
+        &__caurusel {
+            justify-self: center;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+    .header {
+        nav {
+            width: 50px;
+        }
+        &__wrapper {
+            justify-content: center;
+        }
+        &__menu {
+            position: fixed;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            top: 0;
+            left: -100%;
+            width: 70%;
+            height: 100vh;	 
+          /*   height: 937px; */
+            padding: 20px 15px;	
+            background-color: rgba($color: #F95555, $alpha: .7) ;
+            transition: 0.6s;
+            z-index: 2;
+            &_active {
+                left: 0;
+                align-items: baseline;
+            }
+            &-item {
+                padding-right: 0;
+                border: none;
+                margin: 50px 50px;
+            }
+            &-link {
+                font-size: 40px;
+            }
+        }
+        .hamburger {
+            display: block;
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 26px;
+            height: 12px;
+            z-index: 2;
+            span {
+                display: block;
+                height: 2px;
+                width: 100%;
+                background-color:   #F95555;
+                margin-bottom: 2px;
+                transition: 0.5s;
+            }
+            &_active {
+                span {
+                    margin-bottom: -2px;
+                    &:nth-child(1) {
+                        transform: translateY(3px) rotate(-45deg);
+                    }
+                    &:nth-child(2){
+                        display: none;
+                    }
+                    &:nth-child(3) {
+                        transform: translateY(3px) rotate(45deg);
+                    }
+                }
+            }
+        }
+    }
+    .promo {
+        &__wrapper {
+            grid-template-columns: 296px;
+        }
+        &__healthy {
+            justify-content: center;
+            &-text {
+                width: 210px;
+                font-size: 14px;
+            }
+        }
+        &__title {
+            padding-left: 10px;
+            font-size: 40px;
+            line-height: 55px;
+            text-align: center;
+        }
+        &__subtitle {
+            padding-left: 10px;
+            font-size: 10px;
+            line-height: 20px;
+            text-align: center;
+            br {
+                display: none;
+            }
+        }
+        &__btns {
+            flex-direction: column;
+            align-items: center;
+            width: 296px;
+            height: 120px;
+        }
+        &__menu {
+            column-gap: 0;
+            &-item {
+                width: 100px;
+            }
+        }
+        &__arrow {
+            display: none;
+        }
+        &__humburger {
+            &-discount {
+                top: 8px;
+                left: 125px;
+            }
+        }
+    }
+
+
+
+}

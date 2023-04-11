@@ -1,0 +1,321 @@
+@media (max-width: 1400px) {
+    .container {
+        max-width: 1140px;
+        padding: 0 30px;
+    }
+    .dishes {
+        &__redline {
+            left: 667px;
+        }
+        &__wrapper {
+           /*  height: 390px; */
+        }
+        &__item {
+            width: 336px;
+            height: 368px;
+            &-img {
+                width: 168px;
+                height: 168px;
+            }
+            &-subtitle {
+                margin-top: 180px;
+                font-size: 22px;
+                line-height: 30px;
+            }
+            &-text {
+                width: 300px;
+                font-size: 16px;
+                line-height: 24px;
+            }
+            &-prices {
+                margin-top: 20px;
+                width: 300px;
+            }
+        }
+    }
+
+}
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+        padding: 0 30px;
+    }
+    .dishes {
+        padding-bottom: 100px;
+        &__redline {
+            left: 563px;
+        }
+        &__wrapper {
+       /*     height: 330px; */
+
+        }
+        &__item {
+            width: 280px;
+            height: 313px;
+            &-img {
+                width: 143px;
+                height: 143px;
+            }
+            &-stars {
+                top: 80px;
+                left: 20px; 
+            }
+            &-hearts {
+                top: 80px;
+                right: 20px; 
+            }
+            &-subtitle {
+                margin-top: 150px;
+            }
+            &-text {
+                width: 265px;
+                font-size: 14px;
+                line-height: 23px;
+            }
+            &-prices {
+                margin-top: 7px;
+                width: 240px;
+            }
+            &-price {
+                font-size: 22px;
+                line-height: 30px
+            }
+            &-btn {
+                width: 140px;
+                height: 42px;
+                font-size: 16px;
+                line-height: 30px;
+            }
+        }
+        &__btn {
+            margin-top: 50px;
+        }
+    }
+    
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+        padding: 0 20px;
+    }
+    .dishes {
+        &__wrapper {
+            margin-top: 50px;
+         /*    height: 260px; */
+        }
+        &__item {
+            width: 220px;
+            height: 245px;
+            &-img {
+                width: 110px;
+                height: 110px;
+                top: -13px;
+            }
+            &-stars {
+                top: 50px;
+                left: 15px;
+            }
+            &-rating {
+                margin-top: 0px;
+                font-size: 15px;
+                line-height: 25px;
+            }
+            &-hearts {
+                top: 50px;
+                right: 15px;
+            }
+            &-likes {
+                margin-top: 0px;
+                font-size: 15px;
+                line-height: 25px;
+            }
+            &-subtitle {
+                margin-top: 110px;
+                font-size: 20px;
+                line-height: 28px;
+            }
+            &-text {
+                width: 210px;
+                font-size: 11px;
+                line-height: 18px;
+            }
+            &-prices {
+                margin-top: 0;
+                width: 187px;
+                height: 37px;
+            }
+            &-price {
+                font-size: 17px;
+                line-height: 26px;
+            }
+            &-btn {
+                width: 104px;
+                height: 37px;
+                font-size: 14px;
+                line-height: 20px;
+            }
+        }
+    }
+   
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+        padding: 0 10px;
+    }
+    .dishes {
+        &__wrapper {
+
+        }
+        &__item {
+            width: 160px;
+            height: 179px;
+            &-img {
+                width: 80px;
+                height: 80px;
+                top: -10px;
+            }
+            &-stars {
+                top: 40px;
+                left: 10px;
+                height: 40px;
+            }
+            &-star {
+                width: 15px;
+                height: 15px;
+            }
+            &-rating {
+                font-size: 12px;
+                line-height: 16px;
+            }
+            &-hearts {
+                top: 40px;
+                right: 10px;
+                height: 40px;
+            }
+            &-heart {
+                width: 17px;
+                height: 17px;
+            }
+            &-likes {
+                font-size: 12px;
+                line-height: 16px;
+            }
+            &-subtitle {
+                margin-top: 80px;
+                font-size: 15px;
+                line-height: 24px;
+            }
+            &-text {
+                display: none;
+            }
+            &-prices {
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+                width: 160px;
+                height: 59px;
+            }
+            &-btn {
+                width: 90px;
+                height: 29px;
+                font-size: 11px;
+                line-height: 14px;
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+    .dishes {
+        &__title {
+            width: 300px;
+            font-size: 38px;
+            line-height: 50px;
+            &::after {
+                top: 80px;
+                left: 84px;
+                width: 132px;
+                height: 16px;
+            }
+        }
+        &__wrapper {
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: nowrap;
+        }
+        &__item {
+            width: 280px;
+            height: 313px;
+            margin-bottom: 10px;
+            &-img {
+                width: 143px;
+                height: 143px;
+                top: -17px;
+            }
+            &-stars {
+                top: 80px;
+                left: 20px; 
+            }
+            &-star {
+                width: 20px;
+                height: 20px;
+            }
+            &-rating {
+                margin-top: 4px;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 25px;
+                }
+            &-hearts {
+                top: 80px;
+                right: 20px; 
+            }
+            &-heart {
+                width: 24px;
+                height: 24px;
+            }
+            &-likes {
+                margin-top: 4px;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 25px;
+            }
+            &-subtitle {
+                margin-top: 150px;
+            }
+            &-text {
+                display: block;
+                width: 265px;
+                font-size: 14px;
+                line-height: 23px;
+            }
+            &-prices {
+                margin-top: 7px;
+                flex-direction: row;
+                width: 240px;
+            }
+            &-price {
+                font-size: 22px;
+                line-height: 30px
+            }
+            &-btn {
+                width: 140px;
+                height: 42px;
+                font-size: 16px;
+                line-height: 30px;
+            }
+        }
+        &__btn {
+            margin-top: 50px;
+        }
+    }
+}
