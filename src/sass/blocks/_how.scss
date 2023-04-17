@@ -1,24 +1,30 @@
 .how {
     position: relative;
     padding-top: 120px;
-    width: 1440px;
     min-height: 1505px;
     background: url('../icons/how/bg.png') center (center / cover) no-repeat;
     &__title {
+        position: relative;
+        margin: 0 auto;
+        width: 468px;
         text-align: center;
         font-weight: 700;
         font-size: 50px;
         line-height: 60px;
         color: #2B2B2B;
-    }
-    &__redline {
-        position: absolute;
-        top: 160px;
-        left: 789px;
+        margin-bottom: 0;
+        &::after {
+            position: absolute;
+            top: 43px;
+            left: 309px;
+            width: 156px;
+            height: 16px;
+            content: '';
+            background: url('../../icons/dishes/red_line.png');
+        }
     }
     &__wrapper {
         margin-top: 60px;
-        width: 1200px;
         height: 395px;
         display: flex;
         flex-wrap: wrap;
@@ -43,6 +49,10 @@
             left: 50%;
             transform: translateX(-50%);
             background-color: #fff;
+            img {
+                width: 75%;
+                height: 75%;
+            }
             &:hover {
                 box-shadow: (0px 20px 40px rgba(43, 43, 43, 0.2));
             }
@@ -83,6 +93,7 @@
             color: #2B2B2B;
             background-color: #fff;
             border: none;
+            cursor: pointer;
             &::after {
                 content: '';
                 position: absolute;
@@ -104,7 +115,6 @@
         column-gap: 60px;
     }
     &__eat {
-        width: 837px;
         position: relative;
         &-title {
             margin-left: 279px;
@@ -200,11 +210,10 @@
         justify-content: space-between;
         align-items: center;
         margin-top: 30px;
-        width: 303px;
         height: 450px;
         &-item {
-            width: 303px;
-            height: 185px;
+            height: 200px;
+            border-bottom: 2px solid #F3F0EC;
 
             &-days {
                 font-weight: 400;
@@ -224,7 +233,7 @@
             margin-top: 20px;
             display: flex;
             justify-content: space-between;
-            width: 303px;
+            /* width: 303px; */
             height: 70px;
             &-photo {
                 display: flex;

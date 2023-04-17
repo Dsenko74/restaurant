@@ -1,0 +1,218 @@
+@media (max-width: 1440px) {
+    .container {
+        max-width: 1140px;
+        padding: 0 30px;
+    }
+    .reaction {
+        &__wrapper {
+            grid-template-columns: 530px 510px;
+            grid-template-rows: 522px;
+            column-gap: 40px;
+        }
+        &__man {
+            width: 560px;
+            height: 540px;
+        }
+        &__title {
+            font-size: 48px;
+            &::after {
+                left: 300px;
+                width: 168px;
+                height: 17px;
+                top: 45px;
+            }
+        }
+        &__wrapp {
+            margin-top: 60px;
+            width: 460px;
+        }
+        &__btns {
+            width: 510px;
+        }
+    }
+
+}
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+        padding: 0 30px;
+    }
+    .reaction {
+        height: 540px;
+
+        &__wrapper {
+            grid-template-columns: 440px 440px;
+            grid-template-rows: 418px;
+            column-gap: 20px;
+        }
+        &__man {
+            width: 440px;
+            height: 420px;
+        }
+        &__title {
+            font-size: 42px;
+            &::after {
+                left: 250px;
+                width: 168px;
+                height: 17px;
+                top: 37px;
+            }
+        }
+        &__wrapp {
+            margin-top: 50px;
+            width: 400px;
+        }
+        &__descr {
+            margin-bottom: 30px;
+            width: 400px;
+            font-size: 17px;
+            line-height: 27px;
+        }
+        &__customer {
+            &-wrapp {
+                margin-bottom: 25px;
+                width: 363px;
+                height: 60px;
+                &-photo {
+                    width: 60px;
+                    height: 60px;
+                }
+                &-text {
+                    height: 62px;
+                    &:before {
+                        top: 2px;
+                        height: 60px;
+                    } 
+                    &-position {
+                        font-size: 17px;
+                        line-height: 22px;
+                    }
+                    &-design {
+                        margin-top: 1px;
+                        font-size: 15px;
+                        line-height: 19px;
+                    }  
+                    &-stars {
+                        margin-top: 0;
+                    }
+                }
+            }
+        }
+        &__btns {
+            width: 440px;
+            margin-top: 13px;
+        }
+    }
+ 
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+        padding: 0 20px;
+    }
+    .reaction {
+        &__wrapper {
+            grid-template-columns: 330px 330px;
+            grid-template-rows: 313px;
+        }
+        &__man {
+            width: 330px;
+            height: 310px;
+        }
+        &__title {
+            font-size: 31px;
+            &::after {
+                left: 186px;
+                width: 140px;
+                height: 18px;
+                top: 26px;
+            }
+        }
+        &__wrapp {
+            margin: 20px 0 20px 20px;
+            width: 310px;
+            margin-top: 20px;
+        }
+        &__descr {
+            margin: 0 0 20px 20px;
+            width: 310px;
+            font-size: 12px;
+            line-height: 22px;
+        }
+        &__customer {
+            &-wrapp {
+                margin: 0 40px 25px 20px;
+                width: 290px;
+            }
+        }
+        &__btns {
+            width: 330px;
+            height: 40px;
+            &-btn {
+                width: 80px;
+                height: 40px;
+                &-red {
+                    width: 80px;
+                    height: 40px;
+                }
+            }
+        }
+        
+    }  
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+        padding: 0 10px;
+    }
+    .reaction {
+        height: 400px;
+        &__wrapper {
+            grid-template-columns: 520px;
+        }
+        &__man {
+            display: none;
+        }
+        &__customer {
+            margin: 0 auto;
+        }
+    }
+
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+    .reaction {
+        &__wrapper {
+            grid-template-columns: 290px;
+            justify-content: center;
+        }
+        &__title {
+            width: 290px;
+            text-align: center;
+            font-size: 38px;
+            &::after {
+                top: 78px;  
+                left: 81px;
+            }
+        }
+        &__wrapp {
+            width: 270px;
+        }
+        &__descr {
+            width: 270px;
+            font-size: 11px;
+            line-height: 19px;
+        }
+        &__btns {
+            width: 290px;
+        }
+    }
+ 
+}

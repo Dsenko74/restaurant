@@ -1,0 +1,361 @@
+@media (max-width: 1440px) {
+    .container {
+        max-width: 1140px;
+        padding: 0 30px;
+    }
+    .how {
+        &__item {
+            width: 330px;
+            height: 336px;
+            &-img {
+                width: 160px;
+                height: 160px;
+            }
+            &-subtitle {
+                margin-top: 162px;
+                font-size: 23px;
+                line-height: 31px;
+            }
+            &-text {
+                width: 300px;
+                font-size: 17px;
+                line-height: 24px;
+            }
+        }
+        &__wrapp {
+            grid-template-columns: 760px 280px;
+            column-gap: 40px
+        }
+        &__eat-arrow {
+            left: 235px;
+        }
+        &__author-wrapp-text {
+            width: 174px;
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+        padding: 0 30px;
+    }
+    .how {
+        &__item {
+            width: 280px;
+            height: 285px;
+            &-img {
+                width: 140px;
+                height: 140px;
+            }
+            &-subtitle {
+                margin-top: 140px;
+                font-size: 21px;
+                line-height: 28px;
+            }
+            &-text {
+                width: 270px;
+                font-size: 14px;
+                line-height: 22px;
+            }
+            &-reed {
+                margin-top: 0;
+                width: 200px;
+                height: 50px;
+                font-size: 16px;
+                line-height: 30px;
+            }
+        }
+        &__wrapp {
+            grid-template-columns: 900px;
+            grid-template-rows: 510px 200px;
+        }
+        &__eat-arrow {
+            left: 300px;
+        }
+        &__author {
+            flex-direction: row;
+            justify-content: space-around;
+            height: 210px;
+            &-item {
+                width: 303px;
+            }
+            &-wrapp-text {
+                width: 197px;
+            }
+        }
+    }
+
+
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+        padding: 0 20px;
+    }
+    .how {
+        &__wrapper {
+            height: 245px;
+        }
+        &__item {
+            width: 220px;
+            height: 224px;
+            &-img {
+                width: 115px;
+                height: 115px;
+                top: -15px;
+            }
+            &-subtitle {
+                margin-top: 106px;
+                font-size: 19px;
+                line-height: 25px;
+            }
+            &-text {
+                width: 200px;
+                font-size: 11px;
+                line-height: 17px;
+            }
+            &-reed {
+                width: 150px;
+                height: 22px;
+                font-size: 15px;
+                line-height: 18px;
+                padding-left: 20px;
+                &::after {
+                    width: 26px;
+                    height: 10px;
+                    right: 13px;
+                }
+            }
+        }
+        &__wrapp {
+            grid-template-columns: 680px;
+            grid-template-rows: 433px 210px;
+        }
+        &__eat {
+            &-title {
+                margin-left: 210px;
+            }
+            &-item {
+                top: 10px;
+            }
+            &-girl {
+                width: 360px;
+                height: 413px;
+                top: 58px;
+                right: -25px;
+            }
+            &-descr {
+                width: 380px;
+                font-size: 17px;
+                line-height: 30px;
+            }
+            &-btn {
+                margin-top: 91px;
+            }
+            &-arrow {
+                left: 150px;
+                top: 300px;
+            }
+        }
+        &__author {
+            &-item {
+                &-descr {
+                    font-size: 22px;
+                    line-height: 31px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+        padding: 0 10px;
+    }
+    .how {
+        &__wrapper {
+            height: 182px;
+        }
+        &__item {
+            width: 160px;
+            height: 163px;
+            &-img {
+                width: 84px;
+                height: 84px;
+                top: -12px;
+            }
+            &-subtitle {
+                margin-top: 80px;
+                font-size: 15px;
+                line-height: 25px;
+            }
+            &-text {
+                display: none;
+            }
+            &-reed {
+                margin-top: 16px;
+                font-size: 13px;
+                line-height: 16px;
+            }
+        }
+        &__wrapp {
+            grid-template-columns: 520px;
+        }
+        &__eat {
+            &-title {
+                margin-left: 0;
+            }
+            &-item {
+                display: none;
+            }
+            &-girl {
+                width: 350px;
+                height: 400px;
+                top: 70px;
+                right: -20px;
+            }
+            &-descr {
+                margin-top: 25px;
+                width: 206px;
+                font-size: 14px;
+                line-height: 30px;
+            }
+            &-btn {
+                margin-top: 138px;
+            }
+            &-arrow {
+                left: 1px;
+                top: 292px;
+            }
+        }
+        &__author {
+            flex-direction: column;
+            justify-content: space-between;
+            height: 387px;
+            &-item {
+                width: 300px;
+                height: 184px;
+                &-days {
+                    font-size: 15px;
+                    line-height: 19px;
+                }
+                &-descr {
+                    font-size: 19px;
+                    line-height: 28px;
+                }
+            }
+            &-wrapp {
+                margin-top: 12px;
+                &-text {
+                    width: 186px;
+                    &-position {
+                        font-size: 18px;
+                        line-height: 22px;
+                    }
+                    &-design {
+                        font-size: 14px;
+                        line-height: 17px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+    .how {
+        &__title {
+            width: 300px;
+            font-size: 38px;
+            line-height: 50px;
+            &::after {
+                top: 82px;
+                left: 86px;
+                width: 132px;
+            }
+        }
+        &__wrapper {
+            height: 950px;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &__item {
+            width: 280px;
+            height: 285px;
+            &-img {
+                top: -20px;
+                width: 140px;
+                height: 140px;
+            }
+            &-subtitle {
+                margin-top: 140px;
+                font-size: 21px;
+                line-height: 28px;
+            }
+            &-text {
+                display: block;
+                width: 270px;
+                font-size: 14px;
+                line-height: 22px;
+            }
+            &-reed {
+                margin-top: 0;
+                width: 200px;
+                height: 50px;
+                font-size: 16px;
+                line-height: 30px;
+            }
+        }
+        &__wrapp {
+            grid-template-columns: 300px;
+            grid-template-rows: 800px 420px;
+            justify-content: center;
+        }
+        &__eat {
+            &-title {
+                text-align: center;
+                font-size: 38px;
+                line-height: 50px;
+                width: 300px;
+            }
+            &-girl {
+                position: static;
+                width: 300px;
+                height: 342px;
+            }
+            &-descr {
+                width: 290px;
+                text-align: center;
+                margin: 0 auto;
+                font-size: 16px;
+            }
+            &-btn {
+                margin: 0 auto;
+                display: block;
+                margin-top: 60px;
+            }
+            &-arrow {
+                display: none;
+            }
+        }
+        &__author {
+            width: 300px;
+            &-item {
+                width: 260px;
+            }
+            &-wrapp {
+                &-text {
+                    width: 150px;
+                }
+            }
+        }
+    }
+}

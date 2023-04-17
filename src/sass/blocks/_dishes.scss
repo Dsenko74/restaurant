@@ -1,7 +1,6 @@
 .dishes {
     position: relative;
     padding-bottom: 120px;
-    background-color: #ff9;
     &__title {
         position: relative;
         margin: 0 auto;
@@ -25,11 +24,9 @@
     }
     &__wrapper {
         margin-top: 60px;
-       /*  height: 431px; */
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-/*         background-color: #ff5; */
     }
     &__item {
         position: relative;

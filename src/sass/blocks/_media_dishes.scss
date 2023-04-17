@@ -1,4 +1,4 @@
-@media (max-width: 1400px) {
+@media (max-width: 1440px) {
     .container {
         max-width: 1140px;
         padding: 0 30px;
@@ -6,9 +6,6 @@
     .dishes {
         &__redline {
             left: 667px;
-        }
-        &__wrapper {
-           /*  height: 390px; */
         }
         &__item {
             width: 336px;
@@ -45,10 +42,6 @@
         padding-bottom: 100px;
         &__redline {
             left: 563px;
-        }
-        &__wrapper {
-       /*     height: 330px; */
-
         }
         &__item {
             width: 280px;
@@ -101,9 +94,9 @@
         padding: 0 20px;
     }
     .dishes {
+        padding-bottom: 80px;
         &__wrapper {
             margin-top: 50px;
-         /*    height: 260px; */
         }
         &__item {
             width: 220px;
@@ -167,9 +160,7 @@
         padding: 0 10px;
     }
     .dishes {
-        &__wrapper {
-
-        }
+        padding-bottom: 50px;
         &__item {
             width: 160px;
             height: 179px;
@@ -235,6 +226,7 @@
         padding: 0 10px;
     }
     .dishes {
+        padding-bottom: 30px;
         &__title {
             width: 300px;
             font-size: 38px;
